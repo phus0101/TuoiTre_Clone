@@ -1,0 +1,395 @@
+img{
+	width: 100%;
+}	
+h5{
+	font-size: 13px;
+}
+.menu_thoi_su, .menu_thoi_su_watch_more, 
+.section_thoi_su {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.menu_thoi_su_watch_more{
+	padding-top: 10px;
+}
+.title_thoi_su, .contents_menu_thoi_su_watch_more {
+	border-bottom: 1px solid #ccc;
+}
+.title_thoi_su a, .contents_menu_thoi_su_watch_more a{
+	color: #000;
+}
+.title_thoi_su .list_title_thoi_su_pc a:first-child::before{
+	content: '';
+	width: 4px;
+	height: 25px;
+	position: absolute;
+	background: #f00;
+	top: 6px;
+	left: 0;
+}
+.title_thoi_su a:hover, .contents_menu_thoi_su_watch_more a:hover, 
+.category a:hover, .news_thoi_su_1 a:hover, .news_thoi_su_2 a:hover, 
+.title_thoi_su_small a:hover, .news_thoi_su_3 a:hover {
+	text-decoration: none;
+}
+.title_thoi_su .list_title_thoi_su_pc h5, .title_thoi_su .list_title_thoi_su_pc h3{
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline;
+}	
+.title_thoi_su .list_title_thoi_su_pc , .contents_menu_thoi_su_watch_more ul {
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+	list-style: none;
+}
+.list_title_thoi_su_mobile{
+	display: -webkit-box;
+	overflow-x: scroll;
+	padding-left: 0;
+	list-style: none;
+}
+.title_thoi_su .list_title_thoi_su_pc li, 
+.list_title_thoi_su_mobile li:not(:first-child) {
+	margin-left: 20px;
+	margin-top: 7px;
+}
+
+.list_title_thoi_su_mobile h5{
+	font-weight: bold;
+}
+.list_title_thoi_su_mobile a{
+	text-transform: capitalize;
+}
+.title_thoi_su .list_title_thoi_su_pc li:last-child{
+	margin-left: auto;
+}
+.contents_menu_thoi_su_watch_more a{
+	background: #e8e8e8;
+	margin-left: 5px;
+	padding: 2px 7px;
+}
+.news_thoi_su_1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #555;
+}
+.news_thoi_su_1 img{
+	width: 100%;
+}
+.category a{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 11px;
+}
+.news_thoi_su_1 a, .news_thoi_su_2 a {
+	color: #000;
+}
+.news_thoi_su_1 h4, .news_thoi_su_1 h5, 
+.news_thoi_su_2 h5 {
+	font-weight: bold;
+}
+.news_thoi_su_1 p{
+	font-size: 12px;
+	color: #656565;
+}
+.news_thoi_su_2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.news_thoi_su_2 img{
+	width: 100%;
+}
+@media only screen and (min-width: 991px){
+	.news_thoi_su_2 > .col-md-3{
+		width: 20%;
+	}
+	.news_thoi_su_2 > .col-md-3 > .col-md-12{
+		padding: 0;
+	}
+	.menu_thoi_su > div, .menu_thoi_su_watch_more > div {
+		padding: 0;
+	}	
+}
+.news_thoi_su_3{
+	padding: 10px;
+}
+.news_thoi_su_3 .col-md-4{
+	padding-top: 10px;
+}
+.title_thoi_su_small a{
+	color: #000;
+	margin-left: 5px;
+}
+.title_thoi_su_small h5{
+	font-weight: bold;
+	display: inline;
+	text-transform: uppercase;
+}
+.title_thoi_su_small a:first-child::before{
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 15px;
+	top: 3px;
+	left: 10px;
+	background: #f00;
+}
+.news_thoi_su_3 .title_thoi_su_small a:last-child{
+	float: right;
+}
+.news_thoi_su_3 a{
+	color: #000;
+}
+.news_thoi_su_3 h5{
+	font-weight: bold;
+}
+.ads{
+	margin-top: 10px;
+}
+.main_news_thoi_su{
+	padding-bottom: 30px;
+	border-bottom: 1px dotted #555;
+}
+.new_news_and_videos{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #555;
+	margin-bottom: 10px;
+}
+.new_news_and_videos > .row > .col-md-6:first-child > .row > .col-md-12 {
+	border-bottom: 1px solid #ccc;
+}
+.new_news_and_videos h4, .new_news_and_videos h5{
+	font-weight: bold;
+}
+.new_news_and_videos a{
+	color: #000;
+}
+.new_news_and_videos a:hover{
+	text-decoration: none;
+}
+.new_news_and_videos p{
+	color: #656565;
+	font-size: 12px;
+}
+.new_news_and_videos > .row > .col-md-6:first-child > .row > .col-md-12:first-child, 
+.new_news_and_videos > .row > .col-md-6:first-child > .row > .col-md-12:last-child {
+	border-bottom: none;
+}
+.new_news_and_videos > .row > .col-md-6:first-child > .row > .col-md-12:not(:nth-of-type(1)) {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.new_news_and_videos > .row > .col-md-6:first-child{
+	border-right: 1px solid #ccc;
+}
+.btn_see_more{
+	margin-top: 10px;
+}
+.btn_see_more button{
+	font-weight: bold;
+	color: #000;
+	font-size: 12px;
+}
+.btn_see_more button:last-child{
+	float: right;
+}
+.list_menu_videos_news{
+	display: flex;
+	align-items: center;
+	padding: 0;
+	list-style: none;
+}
+.list_menu_videos_news li:nth-of-type(2){
+	margin-left: auto;
+}
+.list_menu_videos_news li{
+	margin-left: 10px;
+}
+.list_menu_videos_news a{
+	font-size: 13px;
+}
+.new_videos > .row:nth-of-type(2), 
+.new_videos > .row:nth-of-type(3), 
+.new_videos > .row:nth-of-type(4), 
+.see_more_thoi_su {
+	border-bottom: 1px dotted #555;
+	margin-bottom: 10px;
+}
+.contents_business_thoi_su{
+	padding: 10px 10px;
+	color: #000;
+}
+.contents_business_thoi_su li{
+	margin-top: 10px;
+}
+.contents_business_thoi_su li a{
+	font-size: 14px;
+}
+.new_news_and_videos img{
+	width: 100%;
+}
+.pictures_thoi_su .col-md-6{
+	margin-top: 10px;
+}
+.list_see_more_thoi_su {
+	padding: 0 15px;
+	overflow-y: scroll;
+	height: 400px;
+}
+.list_see_more_thoi_su li {
+	margin-bottom: 10px;
+}
+.list_see_more_thoi_su::-webkit-scrollbar, 
+.list_chance_shopping_thoi_su::-webkit-scrollbar {
+	width: 5px;
+	color: red;
+}
+.list_see_more_thoi_su::-webkit-scrollbar-thumb, 
+.list_chance_shopping_thoi_su::-webkit-scrollbar-thumb {
+	background: #888;
+}
+.list_see_more_thoi_su::-webkit-scrollbar-thumb:hover, 
+.list_chance_shopping_thoi_su::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+.see_more_thoi_su{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.social_thoi_su{
+	padding-top: 10px;
+}
+.list_chance_shopping_thoi_su{
+	padding-left: 0px;
+	overflow-y: scroll;
+	height: 400px;
+	list-style: none;
+}
+.chance_shopping_thoi_su > .col-md-12:nth-of-type(2){
+	margin-top: 10px;
+}
+.list_chance_shopping_thoi_su li{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.list_chance_shopping_thoi_su li:first-child, 
+.list_chance_shopping_thoi_su li:last-child {
+	border-bottom: none;
+}
+.social_thoi_su > .row:nth-of-type(2), 
+.social_thoi_su > .row:nth-of-type(4) > div, 
+.social_thoi_su > .row:nth-of-type(6) > div, 
+.social_thoi_su > .row:nth-of-type(8) > div > div {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.social_thoi_su > .row:nth-of-type(3), 
+.social_thoi_su > .row:nth-of-type(4) > div, 
+.reporting, 
+.social_thoi_su > .row:nth-of-type(6) > div, 
+.comment_thoi_su, 
+.social_thoi_su > .row:nth-of-type(8) > div:first-child {
+	border-bottom: 1px dotted #555;
+}
+.reporting, .comment_thoi_su {
+	margin-bottom: 10px;
+}
+.reporting .title_thoi_su_small, 
+.comment_thoi_su .title_thoi_su_small, 
+.pen_thoi_su .title_thoi_su_small {
+	padding-bottom: 10px;
+}
+.social_thoi_su {
+	border-left: 1px solid #ccc;
+}
+.list_maybe_you_care_thoi_su{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+}
+.list_maybe_you_care_thoi_su a{
+	color: #000;
+}
+.list_maybe_you_care_thoi_su a:hover{
+	text-decoration: none;
+}
+.list_maybe_you_care_thoi_su li:nth-of-type(2){
+	margin-left: auto!important;
+}
+.list_maybe_you_care_thoi_su > li:not(:first-child) {
+	background: #e8e8e8;
+    padding: 2px 7px;
+    margin-left: 5px;
+}
+@media only screen and (min-width: 991px){
+	.maybe_you_care_thoi_su .col-md-3{
+		width: 20%;
+	}
+}
+.maybe_you_care_thoi_su img{
+	width: 100%;
+}
+.maybe_you_care_thoi_su a{
+	color: #000;
+}
+.maybe_you_care_thoi_su a:hover{
+	text-decoration: none;
+}
+.maybe_you_care_thoi_su h5{
+	font-weight: bold;
+}
+.maybe_you_care_thoi_su p{
+	font-size: 12px;
+}
+.category{
+	margin-top: 10px;
+}
+.ads_thoi_su{
+	margin-bottom: 10px;
+}
+.ads_thoi_su img{
+	width: 100%;
+}
+@media only screen and (max-width: 990px){
+	.news_thoi_su_2 .col-md-3:not(:first-child){
+		margin-top: 10px;
+		border-top: 1px dotted #ccc;
+		padding-top: 10px;
+	}
+	.new_videos > .row:nth-of-type(2) > .col-md-4{
+		padding-top: 10px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-top: 1px dotted #ccc;
+	}	
+	.new_videos > .row:nth-of-type(2) > .col-md-4:first-child{
+		border-top: none;
+	}
+	.pen_thoi_su > .col-md-4{
+		padding-top: 10px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.social_thoi_su .col-xs-6{
+		padding-bottom: 10px;
+	}
+	.pictures_thoi_su .col-md-6{
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+	}
+	.pictures_thoi_su{
+		margin-bottom: 10px;
+	}
+	.business_thoi_su{
+		padding-bottom: 10px;
+	}
+	.maybe_you_care_thoi_su .col-md-3{
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+	}
+}

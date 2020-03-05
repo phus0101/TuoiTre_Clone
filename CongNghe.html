@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Công nghệ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/style_TrangChu.css">
+	<link rel="stylesheet" type="text/css" href="css/style_ThoiSu.css">
+	<link rel="stylesheet" href="css/style_CongNghe.css">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid header header_1 hidden-sm hidden-xs">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="logo_header">
+						<li><a href="#"><img class="img-responsive" src="images/1.webp" alt=""></a></li>
+						<li><a href="#"><img class="img-responsive" src="images/2.webp" alt=""></a></li>
+						<li><a href="#"><img class="img-responsive" src="images/3.webp" alt=""></a></li>
+					</ul>
+					<ul class="account_and_contact">
+						<li><i class="glyphicon glyphicon-earphone"></i> Hotline: 0918.033.133</li>
+						<li><a href="#">Đặt báo</a></li>
+						<li><a href="#">Quảng cáo</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-user"></i> Đăng nhập</a></li>
+						<li>| <a href="#">Đăng ký</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid header_2 hidden-sm hidden-xs">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="index.html"><img class="img-responsive" src="images/134.png" alt=""></a>
+					<ul class="search_and_others">
+						<li><a href="#">xem điểm thi</a></li>
+						<li><a href="#">tuyển sinh</a></li>
+						<li><a href="#">cần biết</a></li>
+						<li><a href="#">nhà đất</a></li>
+						<li>
+							<input type="text" name="search" placeholder="Tìm kiếm tin tức">
+							<button title="Tìm kiếm"><i class="glyphicon glyphicon-search"></i></button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid ads hidden-sm hidden-xs">
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#"><img class="img-responsive" src="images/139.png" alt=""></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 hidden-sm hidden-xs">
+					<nav class="navbar" data-spy="affix" data-offset-top="197">
+						<ul class="nav navbar-nav">
+							<li><a href="Media.html"><i class="glyphicon glyphicon-home"></i> media</a></li>
+							<li><a href="ThoiSu.html">thời sự</a></li>
+							<li><a href="TheGioi.html">thế giới</a></li>
+							<li><a href="PhapLuat.html">pháp luật</a></li>
+							<li><a href="KinhDoanh.html">kinh doanh</a></li>
+							<li><a href="CongNghe.html">công nghệ</a></li>
+							<li><a href="Xe.html">xe</a></li>
+							<li><a href="DuLich.html">du lịch</a></li>
+							<li><a href="NhipSongTre.html">nhịp sống trẻ</a></li>
+							<li><a href="VanHoa.html">văn hóa</a></li>
+							<li><a href="GiaiTri.html">giải trí</a></li>
+							<li><a href="TheThao.html">thể thao</a></li>
+							<li><a href="GiaoDuc.html">giáo dục</a></li>
+							<li><a href="KhoaHoc.html">khoa học</a></li>
+							<li><a href="SucKhoe.html">sức khỏe</a></li>
+							<li><a href="GiaThat.html">giả-thật</a></li>
+							<li><a href="BanDoc.html">bạn đọc</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid ads_mobile visible-sm visible-xs">
+			<div class="row">
+				<div class="col-md-12">
+					<ul id="menu_header_mobile">
+						<li><a class="img-responsive" href="index.html"><img src="images/122.png" alt=""></a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-earphone"></span></a></li>
+						<li><button><span class="glyphicon glyphicon-search"></span></button></li>
+						<li><i class="fas fa-bars" id="bars"></i></li>
+					</ul>
+					<ul id="menu_mobile">
+						<li><span class="glyphicon glyphicon-remove" id="remove"></span></li>
+						<li><a href="Media.html">media</a></li>
+						<li><a href="ThoiSu.html">thời sự</a></li>
+						<li><a href="TheGioi.html">thế giới</a></li>
+						<li><a href="PhapLuat.html">pháp luật</a></li>
+						<li><a href="KinhDoanh.html">kinh doanh</a></li>
+						<li><a href="CongNghe.html">công nghệ</a></li>
+						<li><a href="Xe.html">xe</a></li>
+						<li><a href="DuLich.html">du lịch</a></li>
+						<li><a href="NhipSongTre.html">nhịp sống trẻ</a></li>
+						<li><a href="VanHoa.html">văn hóa</a></li>
+						<li><a href="GiaiTri.html">giải trí</a></li>
+						<li><a href="TheThao.html">thể thao</a></li>
+						<li><a href="GiaoDuc.html">giáo dục</a></li>
+						<li><a href="KhoaHoc.html">khoa học</a></li>
+						<li><a href="SucKhoe.html">sức khỏe</a></li>
+						<li><a href="GiaThat.html">giả-thật</a></li>
+						<li><a href="BanDoc.html">bạn đọc</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container-fluid section_cong_nghe">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="row">
+						<div class="col-md-12 visible-xs visible-sm">
+							<ul class="list_cong_nghe_mobile">
+								<li><a href="#">
+										<h4>Công nghệ</h4>
+									</a></li>
+								<li><a href="#">Nhịp sống số</a></li>
+								<li><a href="#">Trải nghiệm</a></li>
+								<li><a href="#">Thị trường</a></li>
+								<li><a href="#">Thủ thuật</a></li>
+								<li><a href="#">Gia đình số</a></li>
+								<li><a href="#">Nhịp cầu</a></li>
+							</ul>
+						</div>
+					</div>
+					<nav class="hidden-xs hidden-sm">
+						<ul class="nav nav-pills nav-stacked list_cong_nghe" data-spy="affix" data-offset-top="205">
+							<li><a class="active" href="#">
+									<h4>Công nghệ</h4>
+								</a></li>
+							<li><a href="#">Nhịp sống số</a></li>
+							<li><a href="#">Trải nghiệm</a></li>
+							<li><a href="#">Thị trường</a></li>
+							<li><a href="#">Thủ thuật</a></li>
+							<li><a href="#">Gia đình số</a></li>
+							<li><a href="#">Nhịp cầu</a></li>
+							<li>
+								<i class="glyphicon glyphicon-search"></i>
+								<input type="text" placeholder="Tìm kiếm...">
+							</li>
+							<li>Xu hướng nổi bật</li>
+							<li class="others"><a href="#">Microsoft</a></li>
+							<li class="others"><a href="#">Window</a></li>
+							<li class="others"><a href="#">Mã nguồn mở</a></li>
+							<li class="others"><a href="#">Ứng dụng miễn phí</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-7">
+					<div class="row main_news">
+						<div class="col-md-12 main_news_1">
+							<div class="row">
+								<div class="col-md-8">
+									<a href="#"><img class="img-responsive" src="images/868.png" alt=""></a>
+								</div>
+								<div class="col-md-4">
+									<a href="#">
+										<h4>Huế ra mắt trung tâm giám sát điều hành đô thị thông minh</h4>
+									</a>
+									<p>TTO - Trung tâm giám sát điều hành đô thị thông minh cấp tỉnh đầu tiên của Việt
+										Nam trên
+										nền tảng...</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 main_news_2">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="row">
+										<div class="col-xs-6 col-md-12">
+											<a href="#"><img class="img-responsive" src="images/870.png" alt=""></a>
+										</div>
+										<div class="col-xs-6 col-md-12">
+											<a href="#">
+												<h5>Mỹ phạt Facebook 5 tỉ USD vì để lộ thông tin người dùng</h5>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="row">
+										<div class="col-xs-6 col-md-12">
+											<a href="#"><img class="img-responsive" src="images/871.png" alt=""></a>
+										</div>
+										<div class="col-xs-6 col-md-12">
+											<a href="#">
+												<h5>Pháp thông qua luật buộc Google, Facebook trả tiền bản quyền tin tức
+												</h5>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="row">
+										<div class="col-xs-6 col-md-12">
+											<a href="#"><img class="img-responsive" src="images/872.png" alt=""></a>
+										</div>
+										<div class="col-xs-6 col-md-12">
+											<a href="#">
+												<h5>Huawei trả lương gần 300.000 USD để hút vài chục nhân tài khắp thế
+													giới</h5>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row newest_news">
+						<div class="col-md-12 title_cong_nghe">
+							<a href="#">
+								<h4>Mới nhất</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/873.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Sáp nhập T-mobile và Sprint 26,5 tỉ USD, xóa tên Sprint</h4>
+									</a>
+									<p>TTO - Bộ Tư pháp Mỹ đã chính thức phê chuẩn thỏa thuận sáp nhập hai nhà mạng
+										T-Mobile và Sprint dưới tên gọi T-Mobile và chấm dứt tên gọi...</p>
+									<a href="#">
+										<h6>Sprint và T-Mobile sáp nhập trong thương vụ 26 tỉ USD</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/874.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Samsung SDS đầu tư mua 25% cổ phần của CMC</h4>
+									</a>
+									<p>TTO - Ngày 26/7/2019 tại Hà Nội, Samsung SDS, thuộc Tập đoàn Samsung, đã chính
+										thức kí hợp đồng hợp tác đầu tư chiến lược với việc đầu tư 25%...</p>
+									<a href="#">
+										<h6>Sáp nhập T-mobile và Sprint 26,5 tỉ USD, xóa tên Sprint</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/875.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Hacker đánh cắp dữ liệu của bạn như thế nào?</h4>
+									</a>
+									<p>TTO - Các chuyên gia an ninh mạng ước tính có đến hàng trăm kỹ thuật ăn cắp thông
+										tin cá nhân cũng như ví tiền của bạn. Nền kinh tế này có giá trị...</p>
+									<a href="#">
+										<h6>5 sai lầm về bảo mật làm lãng phí tiền bạc doanh nghiệp</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/876.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Huawei bác thông tin làm ăn phi pháp với Triều Tiên, Czech</h4>
+									</a>
+									<p>TTO - Nhà cung cấp thiết bị viễn thông Trung Quốc khẳng định 'chưa bao giờ tham
+										gia các hoạt động tình báo tại CH Czech' và không hoạt động tại...</p>
+									<a href="#">
+										<h6>Huawei bí mật giúp Triều Tiên xây dựng mạng lưới viễn thông?</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/877.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Giám đốc FBI: Điều tra hơn 1.000 vụ nghi người Trung Quốc ăn cắp sở hữu trí
+											tuệ</h4>
+									</a>
+									<p>TTO - "Không có nước nào đặt ra mối đe dọa phản gián với nước Mỹ nghiêm trọng như
+										Trung Quốc. Tôi không nói ngoa đâu", giám đốc Cục Điều tra...</p>
+									<a href="#">
+										<h6>Phát triển trí tuệ nhân tạo, Trung Quốc bám sát Mỹ</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row newest_videos_news">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Video mới nhất</h4>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/878.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Dubai thử nghiệm dịch vụ taxi không người lái</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/879.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Tái xuất sau phá sản, Vertu ‘tung’ điện thoại 4 ngàn ‘đô’</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/880.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Điện thoại ‘tí hon’ Palm và xu hướng ‘lạ’ của smartphone</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row new_update_news_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Mới cập nhật</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/881.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Giám đốc FBI: Điều tra hơn 1.000 vụ nghi người Trung Quốc ăn cắp sở hữu trí
+											tuệ</h4>
+									</a>
+									<p>TTO - "Không có nước nào đặt ra mối đe dọa phản gián với nước Mỹ nghiêm trọng như
+										Trung Quốc. Tôi không nói ngoa đâu", giám đốc Cục Điều tra...</p>
+									<a href="#">
+										<h6>Phát triển trí tuệ nhân tạo, Trung Quốc bám sát Mỹ</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/882.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Chi nhánh Huawei tại Mỹ bắt đầu sa thải nhân viên</h4>
+									</a>
+									<p>Ngày 22-7, 2 tháng sau khi Huawei bị chính quyền Mỹ đưa vào “danh sách đen”, công
+										ty Futurewei Technologies Inc, nhánh nghiên cứu của Huawei...</p>
+									<a href="#">
+										<h6>Huawei bí mật giúp Triều Tiên xây dựng mạng lưới viễn thông?</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/883.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>FaceApp lọt tốp 10 tìm kiếm của người Việt tuần qua</h4>
+									</a>
+									<p>TTO - Ứng dụng nhận diện và thay đổi khuôn mặt FaceApp lọt vào tốp 10 tìm kiếm
+										của người dùng Việt tuần qua bất chấp những lo ngại về vấn đề...</p>
+									<a href="#">
+										<h6>Sợ FaceApp đánh cắp dữ liệu: có lo cũng bằng thừa</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/884.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Những nông dân Mỹ kiếm tiền trên YouTube nhiều hơn trên đồng ruộng</h4>
+									</a>
+									<p>TTO - Có một thực tế thú vị đang diễn ra ở Mỹ, xu hướng người nông dân tại các
+										vùng nông thôn nước này lên mạng ngày càng nhiều và không ít...</p>
+									<a href="#">
+										<h6>Những Vlog kể chuyện đời thường nhưng vẫn hot</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/885.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Facebook đã làm gì với mỗi bức ảnh bạn đăng lên?</h4>
+									</a>
+									<p>Với mỗi bức ảnh người dùng đăng lên nền tảng, Facebook sẽ nhúng mã theo dõi bí
+										mật để thu thập mọi động thái liên quan tới nó rồi sử dụng cho...</p>
+									<a href="#">
+										<h6>Facebook sẽ bị phạt 5 tỉ USD vì rò rỉ dữ liệu người dùng</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/886.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Zalo bị đề nghị thu hồi 2 tên miền: Người dùng bị ảnh hưởng gì?</h4>
+									</a>
+									<p>TTO - Liệu có bao nhiêu người dùng sẽ bị ảnh hưởng trong trường hợp cơ quan chức
+										năng đề nghị thu hồi 2 tên miền Zalo.vn và Zalo.me thuộc...</p>
+									<a href="#">
+										<h6>VNG cam kết sẽ xin ngay giấy phép hoạt động mạng xã hội cho Zalo</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/887.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Sợ FaceApp đánh cắp dữ liệu: có lo cũng bằng thừa</h4>
+									</a>
+									<p>TTO - Cả "làng Facebook" mới hôm trước còn tràn ngập ảnh "khi chúng ta già" do
+										ứng dụng di động FaceApp tạo ra thì hôm sau lại bắt đầu đầy...</p>
+									<a href="#">
+										<h6>Facebook sẽ bị phạt 5 tỉ USD vì rò rỉ dữ liệu người dùng</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/888.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>VNG cam kết sẽ xin ngay giấy phép hoạt động mạng xã hội cho Zalo</h4>
+									</a>
+									<p>TTO - Nguồn tin của Tuổi Trẻ Online cho biết VNG cam kết sẽ xin ngay giấy phép để
+										không bị khóa hai tên miền Zalo.vn và Zalo.me vào chiều nay 19-7...</p>
+									<a href="#">
+										<h6>Bị thu hồi tên miền, Zalo buộc phải ngừng hoạt động?</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/889.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Bị thu hồi tên miền, Zalo buộc phải ngừng hoạt động?</h4>
+									</a>
+									<p>TTO - Hàng chục triệu người dùng các dịch vụ của Zalo sẽ bị ảnh hưởng nặng nếu
+										Zalo Group không có biện pháp xử lý sau khi cơ quan chức...</p>
+									<a href="#">
+										<h6>Vụ thu hồi tên miền Zalo: Zalo là mạng xã hội?</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/890.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>60% hợp đồng của Huawei là ở... châu Âu</h4>
+									</a>
+									<p>TTO - Châu Âu, nơi tập trung các đồng minh và đối tác thân cận của Mỹ, chiếm tới
+										60% các hợp đồng cung cấp thiết bị 5G trên toàn thế giới...</p>
+									<a href="#">
+										<h6>Đa số người Canada 'ngán' Trung Quốc và Huawei</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#"><img class="img-responsive" src="images/891.png" alt=""></a>
+								</div>
+								<div class="col-md-8">
+									<a href="#">
+										<h4>Vụ thu hồi tên miền Zalo: Zalo là mạng xã hội?</h4>
+									</a>
+									<p>TTO - Đối với đề nghị thu hồi hai tên miền Zalo.vn và Zalo.me thuộc sở hữu của
+										Công ty Cổ phần VNG, Trung tâm Internet Việt Nam đang chờ văn...</p>
+									<a href="#">
+										<h6>Yêu cầu thu hồi tên miền Zalo vì hoạt động mạng xã hội không phép</h6>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ads_thoi_su hidden-xs hidden-sm">
+								<div class="row">
+									<div class="col-md-12">
+										<a href="#"><img class="img-responsive" src="images/146.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="#"><img class="img-responsive" src="images/869.png" alt=""></a>
+						</div>
+					</div>
+					<div class="row iphone_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>IPhone</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/892.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Apple không thể 'cống hiến' cho Mỹ vì gánh thuế nhập khẩu</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/893.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>iPhone bán chậm, Apple nhảy sang làm phim với Hollywood</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/894.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>FaceTime gặp lỗi cho phép nghe lén người khác</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row digital_life_rhythm_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Nhịp sống số</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/895.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Synnex FPT giới thiệu bộ máy bàn cho văn phòng vừa và nhỏ</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/896.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Viral video: đâu là bí quyết cho các doanh nghiệp Việt</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/897.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Những cải tiến trên Huawei Y9 Prime 2019</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/898.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Huawei khai trương cửa hàng trải nghiệm tại TP HCM</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row digital_life_rhythm_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Trải nghiệm</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/899.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Ngắm những cô đào hát lô tô qua lăng kính Oppo R17 Pro</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/900.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Khám phá 'tân binh' dòng Galaxy A: 4 camera, thiết kế đẹp, hiệu năng mạnh mẽ
+										</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/901.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>10 smartphone chụp ảnh đẹp nhất hiện nay</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/902.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>10 smartphone chụp ảnh đẹp nhất hiện nay</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row digital_life_rhythm_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Thị trường</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/903.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Ngắm những cô đào hát lô tô qua lăng kính Oppo R17 Pro</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/904.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Khám phá 'tân binh' dòng Galaxy A: 4 camera, thiết kế đẹp, hiệu năng mạnh mẽ
+										</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/905.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>10 smartphone chụp ảnh đẹp nhất hiện nay</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/906.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>10 smartphone chụp ảnh đẹp nhất hiện nay</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row digital_life_rhythm_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Thủ thuật</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/907.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>5 sai lầm về bảo mật làm lãng phí tiền bạc doanh nghiệp</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/908.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Kích hoạt chế độ hình nền tối trong Facebook Messenger</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/909.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>5 bí kíp để không bị hack tài khoản Facebook</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/910.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Công cụ xóa phông miễn phí online</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row digital_life_rhythm_cong_nghe">
+						<div class="col-md-12">
+							<a href="#">
+								<h4>Gia đình số</h4>
+							</a>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<a href="#"><img class="img-responsive" src="images/911.png" alt=""></a>
+								</div>
+								<div class="col-md-12">
+									<a href="#">
+										<h4>Chọn nội thất thông minh cho căn hộ chung cư</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/912.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>4 lời khuyên cha mẹ bảo vệ con an toàn trên mạng xã hội</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/913.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Cận cảnh ngôi nhà thông minh cực chất tại InnoFest</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-xs-6 col-md-4">
+									<a href="#"><img class="img-responsive" src="images/914.png" alt=""></a>
+								</div>
+								<div class="col-xs-6 col-md-8">
+									<a href="#">
+										<h5>Xe điện Scooter của Xiaomi có thể bị hack và tăng tốc từ xa</h5>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid footer">
+			<div class="row hidden-xs hidden-sm">
+				<div class="col-md-6">
+					<ul class="logo_header">
+						<li><a href="#"><img class="img-responsive" src="images/1.webp" alt=""></a></li>
+						<li><a href="#"><img class="img-responsive" src="images/2.webp" alt=""></a></li>
+						<li><a href="#"><img class="img-responsive" src="images/3.webp" alt=""></a></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="social_network">
+						<li>Theo dõi Tuổi Trẻ Online: </li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row menu_footer hidden-xs hidden-sm">
+				<div class="col-md-2">
+					<a href="Media.html">media</a>
+					<a href="ThoiSu.html">thời sự</a>
+					<a href="TheGioi.html">thế giới</a>
+					<a href="PhapLuat.html">pháp luật</a>
+				</div>
+				<div class="col-md-2">
+					<a href="KinhDoanh.html">kinh doanh</a>
+					<a href="CongNghe.html">công nghệ</a>
+					<a href="Xe.html">xe</a>
+					<a href="DuLich.html">du lịch</a>
+				</div>
+				<div class="col-md-2">
+					<a href="NhipSongTre.html">nhịp sống trẻ</a>
+					<a href="VanHoa.html">văn hóa</a>
+					<a href="GiaiTri.html">giải trí</a>
+				</div>
+				<div class="col-md-2">
+					<a href="TheThao.html">thể thao</a>
+					<a href="KhoaHoc.html">khoa học</a>
+					<a href="SucKhoe.html">sức khỏe</a>
+				</div>
+				<div class="col-md-2">
+					<a href="GiaoDuc.html">giáo dục</a>
+					<a href="BanDoc.html">bạn đọc</a>
+					<a href="GiaThat.html">thật giả</a>
+				</div>
+			</div>
+			<div class="row privacy">
+				<div class="col-md-2">
+					<a href="index.html"><img class="img-responsive" src="images/122.png" alt=""></a>
+				</div>
+				<div class="col-md-4">
+					<p>&copy; Copyright 2019 TuoiTre Online, All rights reserved</p>
+					<p>&reg; Tuổi Trẻ Online giữ bản quyền nội dung trên website này</p>
+				</div>
+				<div class="col-xs-12 visible-xs visible-sm menu_footer_mobile">
+					<a href="#">
+						Liên hệ Quảng cáo <span>0283.997.4848</span><br />
+						Hotline: 0918.033.133
+					</a>
+				</div>
+				<div class="col-xs-12 visible-xs visible-sm menu_footer_mobile">
+					<a href="#">
+						Thông tin Tòa soạn <br>
+						Thành Đoàn TP.HCM
+					</a>
+				</div>
+				<div class="col-md-6 hidden-xs hidden-sm">
+					<div class="row">
+						<div class="col-md-12">
+							<a href="#">Thông tin Tòa soạn - </a>
+							<a href="#">Thành Đoàn TP.HCM</a>
+						</div>
+						<div class="col-md-12">
+							<ul>
+								<li><a href="#">Liên hệ Quảng cáo</a></li>
+								<li><a href="#">Điều khoản bảo mật</a></li>
+								<li><a href="#">Liên hệ góp ý</a></li>
+								<li><span>Hotline: 0918.033.133</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/MyJS.js"></script>
+	<script>
+		$(window).scroll(function () {
+			$(".list_cong_nghe").each(function () {
+				var pos = $(this).offset().top;
+				if (pos >= 3249) {
+					$(this).css({ 'display': 'none' });
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>

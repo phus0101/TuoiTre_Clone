@@ -1,0 +1,223 @@
+.main_media{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.menu_section_media_main, .menu_section_media_others{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.main_video_media{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.menu_section_media_main a{
+	font-weight: bold;
+	font-size: 27px;
+	text-transform: uppercase;
+	color: #ccc;
+	margin-right: 15px;
+	transition: .1s;
+}
+.active{
+	color: #000!important;
+}
+.menu_section_media_main a:hover, .menu_section_media_others a:hover 
+,.main_video_media a:hover, .main_media_2 a:hover, .title_media a:hover, 
+.unique a:hover, .update_new a:hover, .technology_4_0 a:hover, 
+.channels_video a:hover, .watch_more_media a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.menu_section_media_others a{
+	color: #000;
+	margin-right: 15px;
+}
+.main_video_media h2{
+	font-weight: bold;
+}
+.main_video_media a{
+	color: #000;
+}
+.category a, .category span{
+	color: #000;
+	font-size: 12px;
+}
+.main_video_media p{
+	color: #555;
+	margin-top: 5px;
+}
+.reporter{
+	color: #000!important;
+	font-weight: bold;
+	text-align: right;
+}
+.main_video_media .related, .main_video_media .interactive{
+	margin-top: 20px;
+}
+.main_video_media button{
+	background: #f1f1f1;
+	outline: none;
+	border: none;
+	border-radius: 9999px;
+	color: #555;
+	padding: 2px 10px;
+	margin-right: 10px;
+}
+.interactive a{
+	margin-right: 20px;
+}
+.interactive input{
+	outline: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	display: block; 
+	width: 100%; 
+	height: 40px;
+}
+.interactive a:hover{
+	color: #f00;
+}
+.main_media_2{
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-bottom: 1px dotted #555;
+	padding-bottom: 10px;
+}
+.main_media_2 img{
+	width: 100%;
+}
+.main_media_2 a{
+	color: #000;
+}
+.main_media_2 h5{
+	font-weight: bold;
+}
+@media only screen and (min-width: 992px){
+	.main_media_2 > .col-md-3, .update_new > .col-md-3, 
+	.technology_4_0 > .col-md-3, .watch_more_media > .col-md-3 {
+		width: 20%;
+	}
+	.main_media_2 > div:hover, .update_new > div:hover, 
+	.technology_4_0 > div:hover, .unique > div:hover, 
+	#all > div > div:hover, #news > div > div:hover, 
+	#youth > div > div:hover, #entertainment > div > div:hover, 
+	#technology > div > div:hover, #sports > div > div:hover, 
+	#others > div > div:hover, #premier_league > div > div:hover, 
+	.watch_more_media > div:hover {
+		opacity: 0.8;
+	}
+	.main_video_media iframe{
+		width: 100%;
+		height: 455px;
+	}			
+}
+@media only screen and (max-width: 991px){
+	.main_video_media iframe{
+		width: 100%;
+	}
+	.main_media_2 h5{
+		margin-top: 0;
+	}
+	.main_media_2 > div{
+		margin-bottom: 10px;
+	}
+	.technology_4_0{
+		border-bottom: 1px dotted #555;
+	}
+	.update_new > .col-md-3, .technology_4_0 > .col-md-3 {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px dotted #ccc;
+	}
+	.watch_more_media > .col-md-3{
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.update_new > .col-md-3:last-child, 
+	.technology_4_0 > .col-md-3:last-child {
+		border-bottom: none;
+	}
+	.menu_section_media_main a{
+		font-size: 13px;
+	}
+	.menu_section_media_main ul{
+		overflow-x: scroll;
+	}
+}
+.update_new, .technology_4_0, .unique, 
+.channels_video, .opportunity, .watch_more_media {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.update_new{
+	border-bottom: 1px dotted #555;
+}
+.update_new a,.technology_4_0 a, .unique a, .watch_more_media a {
+	color: #000;
+}
+.update_new h5, .technology_4_0 h5, .unique h5, .watch_more_media h5 {
+	font-weight: bold;
+}
+.title_media a, .title_media a {
+	color: #000;
+	text-transform: uppercase;
+}
+.title_media h5, .title_media h5 {
+	font-weight: bold;
+}
+.unique{
+	background: #ccc;
+}
+.channels_video a{
+	color: #000;
+}
+.nav-tabs > li > a{
+	border-radius: 0;
+	border-bottom: 1px solid #ccc;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+	background: #f27232;
+	color: #000;
+}
+#all > div > div, #news > div > div, 
+#youth > div > div, #entertainment > div > div, 
+#technology > div > div, #sports > div > div, 
+#others > div > div, #premier_league > div > div {
+	height: 220px;
+}
+#all > div > div:last-child, #news > div > div:last-child, 
+#youth > div > div:last-child, #entertainment > div > div:last-child, 
+#technology > div > div:last-child, #sports > div > div:last-child, 
+#others > div > div:last-child, #premier_league > div > div:last-child {
+	height: auto;
+}
+#all, #news, 
+#youth, #entertainment, 
+#technology, #sports, 
+#others, #premier_league {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #555;
+	margin-bottom: 10px;
+}
+#all a h5, #news a h5, #youth a h5, #entertainment a h5, 
+#technology a h5, #sports a h5, #others a h5, #premier_league a h5 {
+	font-weight: bold;
+}
+.update_new img, .technology_4_0 img, #all img, 
+#news img, #youth img, #entertainment img, 
+#technology img, #sports img, #others img, 
+#premier_league img, .watch_more_media img {
+	width: 100%;
+}
+.menu_section_media_main ul{
+	list-style: none; 
+	display: flex; 
+	align-items: center; 
+	padding-left: 0;
+}

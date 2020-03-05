@@ -1,0 +1,374 @@
+.section_giai_tri {
+    max-width: 1000px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    color: #000;
+}
+
+.list_main_title_giai_tri,
+.list_others_title_giai_tri,
+.list_others_giai_tri {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.list_main_title_giai_tri a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list_main_title_giai_tri a h4 {
+    font-weight: bold;
+}
+
+.list_main_title_giai_tri .time {
+    margin-left: auto;
+}
+
+.list_main_title_giai_tri li {
+    margin-left: 20px;
+}
+
+.list_main_title_giai_tri li:first-child {
+    margin-left: 10px;
+}
+
+.list_main_title_giai_tri li:first-child a::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 23px;
+    top: 7px;
+    left: 13px;
+    background: #f00;
+}
+
+.main_title_giai_tri,
+.others_title_giai_tri {
+    border-bottom: 1px solid #ccc;
+}
+
+.others_title_giai_tri {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.list_others_title_giai_tri li,
+.list_others_giai_tri li {
+    margin-right: 5px;
+}
+
+.list_others_title_giai_tri a,
+.list_others_giai_tri a {
+    background: #e5e5e5;
+    padding: 2px 5px;
+}
+
+.main_news_giai_tri h4,
+.main_news_giai_tri h6,
+.main_news_giai_tri_2 h5,
+.cannes_giai_tri h5,
+.others_news_giai_tri h5,
+.others_news_giai_tri h6,
+.others_news_giai_tri_2 h5,
+.others_news_giai_tri_2 h6,
+.swiper-container h4,
+.picture_and_videos_giai_tri h4,
+.picture_and_videos_giai_tri h5,
+.maybe_you_care_giai_tri h5 {
+    font-weight: bold;
+}
+
+.main_news_giai_tri p,
+.others_news_giai_tri p,
+.others_news_giai_tri_2 p,
+.maybe_you_care_giai_tri p {
+    color: #222;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 991px) {
+    .main_news_giai_tri h4 {
+        margin-top: 5px;
+    }
+
+    .main_news_giai_tri_2 .col-md-3,
+    .maybe_you_care_giai_tri .col-md-3 {
+        width: 20%;
+    }
+
+    .others_news_giai_tri h5 {
+        margin-top: 0;
+    }
+
+    .program_giai_tri h5 {
+        margin-top: 10px;
+    }
+
+    .swiper-container h4 {
+        margin-top: 10px;
+    }
+
+    .others_program_giai_tri {
+        border-left: 1px solid #ccc;
+    }
+
+    .others_news_giai_tri_left {
+        border-right: 1px solid #ccc;
+    }
+
+    .others_news_giai_tri_right>.row>.col-md-7 {
+        border-left: 1px solid #ccc;
+    }
+
+    .others_news_giai_tri_right>.row>.col-md-7>.row,
+    .others_news_giai_tri_right>.row>.col-md-7>.row:not(:first-child)>.col-md-12:not(:first-child) {
+        border-bottom: 1px dotted #555;
+    }
+
+    .others_news_giai_tri_right>.row>.col-md-7>.row>.col-md-12 {
+        margin-bottom: 10px;
+    }
+
+    .others_news_giai_tri_right>.row>.col-md-7>.row>.col-md-12:last-child {
+        border-bottom: none !important;
+        margin-bottom: 0 !important;
+    }
+
+    .others_news_giai_tri_right>.row>.col-md-7>.row:first-child,
+    .others_news_giai_tri_right>.row>.col-md-7>.row:last-child {
+        border-bottom: none;
+    }
+}
+
+.category_giai_tri a span {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.main_news_giai_tri_1 {
+    padding-bottom: 10x;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #555;
+}
+
+.cannes_giai_tri {
+    background: rgba(25, 0, 0, .1);
+    margin-bottom: 10px;
+}
+
+.see_more_cannes {
+    float: right;
+}
+
+.title_and_seemore {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title_giai_tri {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.title_giai_tri::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 18px;
+    top: 10px;
+    left: 13px;
+    background: #f00;
+}
+
+.main_news_giai_tri {
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #555;
+}
+
+.title_others_news_giai_tri {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newest_news_giai_tri .col-md-12 {
+    margin-bottom: 10px;
+}
+
+.newest_news_giai_tri .col-md-12 {
+    border-bottom: 1px dotted #555;
+}
+
+.newest_news_giai_tri .col-md-12:first-child,
+.newest_news_giai_tri .col-md-12:last-child {
+    border-bottom: none;
+}
+
+.program_giai_tri {
+    border-bottom: 1px dotted #555;
+}
+
+.swiper-container {
+    background: #fff;
+    padding: 0;
+}
+
+.megastory_giai_tri {
+    border-bottom: 1px dotted #555;
+}
+
+.list_music_giai_tri {
+    padding-left: 0;
+}
+
+.list_music_giai_tri li {
+    margin-bottom: 10px;
+}
+
+.others_news_giai_tri {
+    border-bottom: 1px dotted #555;
+}
+
+.others_news_giai_tri_2>.col-md-6:first-child .row,
+.picture_and_videos_giai_tri {
+    border-bottom: 1px dotted #555;
+    margin-bottom: 10px;
+}
+
+.others_news_giai_tri_2>.col-md-6:first-child .row {
+    padding-bottom: 10px;
+}
+
+.others_news_giai_tri_2>.col-md-6:first-child .row:last-child {
+    border-bottom: none;
+}
+
+.list_see_more_giai_tri {
+    padding-left: 15px;
+    overflow-x: scroll;
+    height: 400px;
+    border-bottom: 1px dotted #555;
+}
+
+.list_opportune_shopping_giai_tri {
+    padding-left: 0;
+    list-style: none;
+    height: 400px;
+    border-bottom: 1px dotted #555;
+    overflow-x: scroll;
+}
+
+.list_opportune_shopping_giai_tri li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.list_opportune_shopping_giai_tri li a {
+    font-weight: bold;
+}
+
+.list_opportune_shopping_giai_tri li:first-child,
+.list_opportune_shopping_giai_tri li:last-child {
+    border-bottom: none;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.list_see_more_giai_tri li {
+    margin-bottom: 10px;
+}
+
+.list_see_more_giai_tri::-webkit-scrollbar,
+.list_opportune_shopping_giai_tri::-webkit-scrollbar {
+    width: 5px;
+    color: red;
+}
+
+.list_see_more_giai_tri::-webkit-scrollbar-thumb,
+.list_opportune_shopping_giai_tri::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.list_see_more_giai_tri::-webkit-scrollbar-thumb:hover,
+.list_opportune_shopping_giai_tri::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.btn_see_flow_times {
+    float: right;
+}
+
+.others_news_giai_tri_2 {
+    border-bottom: 1px dotted #555;
+}
+
+.list_others_giai_tri li:first-child {
+    margin-left: auto;
+}
+
+.list_others_giai_tri {
+    margin-top: 10px;
+}
+
+.list_main_title_giai_tri_mobile {
+    display: -webkit-box;
+    padding-left: 0;
+    list-style: none;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+
+.list_main_title_giai_tri_mobile li {
+    margin-right: 20px;
+}
+
+.list_main_title_giai_tri_mobile a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.list_main_title_giai_tri_mobile h4 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 990px) {
+    .main_title_giai_tri {
+        border-bottom: none;
+    }
+
+    .main_news_giai_tri_2 .col-md-3,
+    .cannes_giai_tri .col-md-4,
+    .program_giai_tri .col-md-4,
+    .videos_giai_tri .col-md-6,
+    .film_giai_tri .col-md-12,
+    .tv_show_giai_tri .col-md-12,
+    .fashion_giai_tri .col-md-12,
+    .backstage_giai_tri .col-md-12,
+    .maybe_you_care_giai_tri .col-md-3 {
+        margin-bottom: 10px;
+    }
+
+    .newest_news_giai_tri .col-md-12 {
+        padding-bottom: 10px;
+    }
+}

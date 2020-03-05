@@ -1,0 +1,49 @@
+.relish a, .invent a{
+    color: #000;
+}
+.relish p, .invent p{
+    font-size: 12px;
+}
+.relish a:hover, .invent a:hover{
+    text-decoration: none;
+}
+.relish a h5, .invent a h5{
+    font-weight: bold;
+}
+.relish .title_thoi_su_small, .invent .title_thoi_su_small{
+    margin-bottom: 10px;
+}
+.relish_and_invent{
+    border-bottom: 1px dotted #555;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 991px){
+    .reporting{
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .social_thoi_su{
+        padding-top: 0;
+    }
+    .social_thoi_su > .row:nth-of-type(2){
+        margin-top: 0;
+    }
+    .relish{
+        border-right: 1px solid #ccc;
+    }    
+}
+@media only screen and (max-width: 990px){
+    .new_news_and_videos{
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+    .relish{
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+    .relish .col-md-4, .invent .col-md-12{
+        margin-bottom: 20px;
+    }
+}
